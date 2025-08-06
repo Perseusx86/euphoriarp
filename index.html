@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euphoria RP - FiveM Zombie Roleplay Server</title>
+    <meta name="description" content="Join Euphoria RP - An immersive FiveM zombie survival roleplay server. Experience the outbreak. Survive the horror.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Ambient particles background -->
+    <div id="particles-container"></div>
+    
+    <!-- Landing Section -->
+    <section id="landing" class="section">
+        <div class="landing-content">
+            <div class="server-logo">
+                <h1 class="server-name glitch" data-text="EUPHORIA RP">EUPHORIA RP</h1>
+                <p class="subtitle fade-in">THIS ISN'T A VIRUS. IT'S A GATE.</p>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+        <div class="red-mist"></div>
+    </section>
+
+    <!-- Lore Section -->
+    <section id="lore" class="section">
+        <div class="container">
+            <div class="classified-file">
+                <div class="file-header">
+                    <span class="classification">CLASSIFIED</span>
+                    <span class="file-number">FILE #2025-ZEA-001</span>
+                </div>
+                <h2 class="section-title">THE OUTBREAK</h2>
+                <div class="file-content">
+                    <div class="timestamp">July ██, 2025 - 03:47 AM PST</div>
+                    <div class="lore-text">
+                        <p><strong>BEFORE THE FALL:</strong> Los Santos was a city of dreams. Neon lights painted the nights in false promises, and people lived their lives believing tomorrow would always come. They called it paradise. They called it... Euphoria.</p>
+                        
+                        <p><strong>THE SCIENTIST:</strong> Dr. Irwin Grass worked in the shadows beneath the city. His laboratory, codenamed CROWN-13, promised humanity's next evolution. "We can transcend death itself," he whispered to his superiors. The government funded his obsession. They wanted soldiers that couldn't die.</p>
+                        
+                        <p><strong>THE FIRST BREACH:</strong> July 27th, 2025. Subject 001 broke containment. The screams echoed through the facility's corridors as Dr. Grass watched his life's work tear through security teams. Within hours, the infection spread through the underground tunnels like spilled blood seeking the light.</p>
+                        
+                        <p><strong>THE RED ZONE:</strong> The city fell in three days. Military cordons established the Red Zone - a quarantine that became a prison. Survivors speak of things worse than the infected. Shadows that move without bodies. Voices that call from empty buildings. Some say Dr. Grass is still down there, in his laboratory, continuing his work.</p>
+                        
+                        <p><strong>CURRENT STATUS:</strong> The gate he opened can't be closed. What began as a virus has become something... else. The infected evolve. Some remember who they were. Others hunt with purpose. And in the deepest parts of the city, something stirs that was never human at all.</p>
+                        
+                        <div class="redacted-text">[LOCATION OF CROWN-13 LABORATORY - CLEARANCE DENIED]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Server Info Section -->
+    <section id="server-info" class="section">
+        <div class="container">
+            <h2 class="section-title">WHY JOIN EUPHORIA RP?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧟</div>
+                    <h3>Evolving Infected</h3>
+                    <p>The infected learn. They adapt. Some retain memories of their past lives, creating encounters that blur the line between monster and human</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏭</div>
+                    <h3>Desperate Factions</h3>
+                    <p>Join survivors clinging to hope, military forces enforcing brutal order, scientists seeking truth, or cults embracing the darkness</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔬</div>
+                    <h3>CROWN-13 Laboratory</h3>
+                    <p>Venture into the depths where it all began. Dr. Grass's abandoned experiments still pulse with unnatural life in the underground darkness</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Survival Against All</h3>
+                    <p>Every breath is earned. Hunger gnaws, infection spreads, and resources dwindle as the city itself becomes your enemy</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Stories Written in Blood</h3>
+                    <p>Deep character development where every choice carries weight. Your decisions shape not just your fate, but the fate of all survivors</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌃</div>
+                    <h3>Unfolding Horror</h3>
+                    <p>Dynamic events reveal dark truths. Supply drops hide sinister purposes. Each discovery pulls you deeper into the conspiracy</p>
+                </div>
+            </div>
+            
+            <div class="server-details">
+                <div class="server-card">
+                    <h3>Server Connection</h3>
+                    <div class="connection-info">
+                        <div class="info-item">
+                            <span class="label">FiveM IP:</span>
+                            <span class="value" id="server-ip">connect euphoria-rp.com</span>
+                            <button class="copy-btn" onclick="copyToClipboard('server-ip')">Copy</button>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Status:</span>
+                            <span class="value status online">ONLINE</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Players:</span>
+                            <span class="value">64/128</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">MAIN CHARACTERS</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Dr. Irwin Grass</span>
+                            <p>The Architect of Ruin</p>
+                            <small>Last seen descending into CROWN-13</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>"The Aware"</span>
+                            <p>Subject 001</p>
+                            <small>An infected who remembers everything</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>The Whisperer</span>
+                            <p>Unknown Survivor</p>
+                            <small>Leaves cryptic warnings on walls</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Your Character</span>
+                            <p>The Next Chapter</p>
+                            <small>What will your story become?</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item trailer-placeholder" style="grid-column: span 2; width: 200%; margin-left: -300px;">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/FGWLtZZwCnY" 
+                            title="Euphoria RP Server Trailer" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen
+                            style="width: 100%; height: 300px; border-radius: 8px;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="section" style="background-image: url('images/destroyed-city.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="container">
+            <h2 class="section-title">JOIN THE SURVIVORS</h2>
+            <div class="join-content">
+                <p>The Red Zone calls to you. Will you be another casualty of Dr. Grass's ambition, or will you uncover the truth buried beneath the city's bones?</p>
+                <div class="join-buttons">
+                    <a href="#" class="btn btn-primary discord-btn">
+                        <span class="btn-icon">💬</span>
+                        Join Discord
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <span class="btn-icon">📖</span>
+                        Read Rules
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Euphoria RP</h4>
+                    <p>The ultimate FiveM zombie survival experience</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Discord Server</a></li>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Steam Group</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Server Rules</a></li>
+                        <li><a href="#">Getting Started</a></li>
+                        <li><a href="#">Report Issues</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Euphoria RP. All rights reserved.</p>
+                <p class="easter-egg" title="You opened the gate. It won't close.">v1.0.0</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
